@@ -1,24 +1,6 @@
-The DarkRP modification addon
+The DarkRP trial modification addon
 ==================
 for DarkRP 2.5.0 and above.
-
-## Download ##
-Are you looking at this addon from the github web page? There's a "Download zip" button on the right.
-Just download and put the contents into a folder in the garrysmod/addons folder!
-If you have come this far and still have yet to find the download for the actual DarkRP gamemode (which this download **can not** function without) you can find it at either one of these locations:
-* [On the Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=248302805)
-
-
-  or
-
-
-* [On GitHub](https://github.com/FPtje/DarkRP)
-
-
-
-## Description ##
-You should **not edit _any_ of the DarkRP core files** (anything in gamemodes/darkrp/*). That is why this addon exists.
-This addon was created for anyone meaning even if you dont know lua this make it possible to customize DarkRP without worrying about updates or having to know how to read/write in lua. Have a look around and feel free to use any one of the many resources available to you at the bottom of this text!
 
 ## Contents of this addon ##
 Everything you will need is in the Lua folder, because that is where the fun happens. *(if you have anything else other than text based files in this folder you have done something wrong!)*
@@ -51,7 +33,8 @@ Everything you will need is in the Lua folder, because that is where the fun hap
 
 - **lua/darkrp_modules/**       -- *Replace a DarkRP module with your own version or script your own mod for DarkRP!*
 
-
+#### The base of DarkRP. ####
+[DarkRP Gamemode Git Repo](https://github.com/FPtje/DarkRP)
 
 #### Check out the DarkRP wiki for guides, tutorials and documentation! ####
 [DarkRP Wiki](http://wiki.darkrp.com/index.php/Main_Page)
