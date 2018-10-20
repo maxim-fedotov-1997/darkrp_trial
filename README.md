@@ -36,5 +36,5 @@ Everything you will need is in the Lua folder, because that is where the fun hap
 #### The base of DarkRP. ####
 [DarkRP Gamemode Git Repo](https://github.com/FPtje/DarkRP)
 
-#### Check out the DarkRP wiki for guides, tutorials and documentation! ####
+#### DarkRP wiki with guides, tutorials and documentation. ####
 [DarkRP Wiki](http://wiki.darkrp.com/index.php/Main_Page)
