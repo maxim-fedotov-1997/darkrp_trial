@@ -174,7 +174,7 @@ GM.Config.weaponCheckerHideNoLicense    = false
 Value settings
 ]]
 -- adminnpcs - Whether or not NPCs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminnpcs                     = 3
+GM.Config.adminnpcs                     = 2
 -- adminsents - Whether or not SENTs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
 GM.Config.adminsents                    = 1
 -- adminvehicles - Whether or not vehicles should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
@@ -189,9 +189,9 @@ GM.Config.babygodtime                   = 5
 -- Leave this on at least a few seconds to prevent people from spamming sounds. Set to 0 to disable.
 GM.Config.chatsoundsdelay               = 5
 -- deathfee - the amount of money someone drops when dead.
-GM.Config.deathfee                      = 30
+GM.Config.deathfee                      = 0
 -- decaltimer - Sets the time to clear clientside decals (in seconds).
-GM.Config.decaltimer                    = 120
+GM.Config.decaltimer                    = 300
 -- demotetime - Number of seconds before a player can rejoin a team after demotion from that team.
 GM.Config.demotetime                    = 120
 -- doorcost - Sets the cost of a door.
@@ -207,7 +207,7 @@ GM.Config.lockdowndelay                 = 120
 -- maxadvertbillboards - The maximum number of /advert billboards a player can place.
 GM.Config.maxadvertbillboards           = 3
 -- maxdoors - Sets the max amount of doors one can own.
-GM.Config.maxdoors                      = 20
+GM.Config.maxdoors                      = 5
 -- maxdrugs - Sets max drugs.
 GM.Config.maxdrugs                      = 2
 -- maxfoods - Sets the max food cartons per Microwave owner.
@@ -243,7 +243,7 @@ GM.Config.pricecap                      = 500
 -- pricemin - The minimum price of items (using /price).
 GM.Config.pricemin                      = 50
 -- propcost - How much prop spawning should cost (prop paying must be enabled for this to have an effect).
-GM.Config.propcost                      = 10
+GM.Config.propcost                      = 0
 -- quakechance - Chance of an earthquake happening.
 GM.Config.quakechance                   = 4000
 -- respawntime - Minimum amount of seconds a player has to wait before respawning.
@@ -263,7 +263,7 @@ GM.Config.shipmentspawntime             = 10
 -- startinghealth - the health when you spawn.
 GM.Config.startinghealth                = 100
 -- startingmoney - your wallet when you join for the first time.
-GM.Config.startingmoney                 = 500
+GM.Config.startingmoney                 = 20000
 -- vehiclecost - Sets the cost of a vehicle (To own it).
 GM.Config.vehiclecost                   = 40
 -- wallettaxmax - Maximum percentage of tax to be paid.
@@ -273,7 +273,7 @@ GM.Config.wallettaxmin                  = 1
 -- wallettaxtime - Time in seconds between taxing players. Requires server restart.
 GM.Config.wallettaxtime                 = 600
 -- wantedtime - Number of seconds for which a player is wanted for.
-GM.Config.wantedtime                    = 120
+GM.Config.wantedtime                    = 3600
 -- walkspeed - Sets the max walking speed.
 GM.Config.walkspeed                     = 160
 -- falldamagedamper - The damper on realistic fall damage. Default is 15. Decrease this for more damage.
@@ -283,7 +283,7 @@ GM.Config.falldamageamount              = 10
 -- printeroverheatchance - The likelyhood of a printer overheating. The higher this number, the less likely (minimum 3, default 22).
 GM.Config.printeroverheatchance         = 22
 -- printerreward - Reward for destroying a money printer.
-GM.Config.printerreward                 = 950
+GM.Config.printerreward                 = 1000
 
 --[[---------------------------------------------------------------------------
 Chat distance settings
@@ -348,7 +348,6 @@ GM.Config.DisallowDrop = {
 -- The list of weapons people spawn with.
 GM.Config.DefaultWeapons = {
     "keys",
-    "weapon_physcannon",
     "gmod_camera",
     "gmod_tool",
     "pocket",
@@ -461,9 +460,9 @@ GM.Config.preventClassItemRemoval = {
 GM.Config.allowedProperties = {
     remover = true,
     ignite = false,
-    extinguish = true,
-    keepupright = true,
-    gravity = true,
+    extinguish = false,
+    keepupright = false,
+    gravity = false,
     collision = true,
     skin = true,
     bodygroups = true,
@@ -513,4 +512,4 @@ Hungermod module
 -- hungerspeed <Amount> - Set the rate at which players will become hungry (2 is the default).
 GM.Config.hungerspeed = 2
 -- starverate <Amount> - How much health that is taken away every second the player is starving  (3 is the default).
-GM.Config.starverate = 3
+GM.Config.starverate = 1
